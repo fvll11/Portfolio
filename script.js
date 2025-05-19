@@ -27,7 +27,7 @@ document.querySelector("#contact form").addEventListener("submit", async functio
   button.textContent = "Enviando...";
 
   try {
-    const response = await fetch("https://contacto-api.onrender.com", {
+    const response = await fetch("https://contacto-api.onrender.com/contacto", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
