@@ -6,11 +6,16 @@
     <title>Mi Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
     <div class="main-card">
         <header>
-            <h1>Francisco Villalba De Llano</h1>
+            <div class="header-left">
+                <img src="images/mifoto.jpg" alt="Mi Foto" class="about-photo">
+                <h1>Francisco Villalba De Llano</h1>
+              </div>
             <nav>
                 <ul>
                     <li><a href="#about">Sobre Mí</a></li>
@@ -19,29 +24,76 @@
                 </ul>
             </nav>
             <a href="#" id="theme-toggle">
-                <img src="images/modo.png" alt="Icono de tema">
+                <i class="fas fa-adjust" style="font-size: 30px;"></i>
             </a>        
         </header>
 
         <section id="about">
             <h2>Sobre Mí</h2>
             <div class="about-container">
-                <img src="images/mifoto.jpg" alt="Mi Foto" class="about-photo">
+                <!--<img src="images/mifoto.jpg" alt="Mi Foto" class="about-photo"> -->
                 <div class="dark-overlay"></div>
                 <div class="about-info">
-                    <p>Hola, soy Francisco Villalba, un desarrollador web apasionado por la creación de aplicaciones 
-                        y sitios web modernos y funcionales. <br> <br>Estoy entusiasmado por la oportunidad de trabajar en equipo para resolver problemas complejos, 
-                        aprender de otros desarrolladores experimentados y contribuir al éxito de proyectos que impacten positivamente a los usuarios. <br><br>
-                        Convencido de que mi dedicación y capacidad para adaptarme rápidamente a nuevas tecnologías me permitirán agregar valor a 
-                        cualquier iniciativa en el ámbito del desarrollo web. <br> <br> Me encuentro en Mairena del Alcor (Sevilla), cuento con disponibilidad de incorporación inmediata y vehículo propio</p>
-                        <br>
-
-                    <h3>Tecnologías:</h3>
+                    <p>Hola, soy Francisco Villalba, desarrollador web especializado en crear aplicaciones y sitios modernos, funcionales y con buena experiencia de usuario.
+                        Me apasiona trabajar en equipo para resolver retos complejos, aprender de profesionales con experiencia y aportar al éxito de proyectos que generen un impacto positivo.               
+                        Soy una persona comprometida, adaptable y siempre dispuesta a incorporar nuevas tecnologías para ofrecer soluciones de valor en el ámbito del desarrollo web.                     
+                        Actualmente, resido en Mairena del Alcor (Sevilla), tengo disponibilidad inmediata y vehículo propio.
+                    </p>
+                    <br>
+                    <h3><i class="fas fa-graduation-cap" style="margin-right:8px; color:#555;"></i>Titulaciones:</h3>
+                    <ul class="qualifications">
+                        <li>CFGS Desarrollo de Aplicaciones Web - Ilerna Online (2022 - 2024)</li>
+                        <li>Curso Vodafone 5g - Programación IoT y Smart City</li>
+                        <li>Curso Vodafone 5g - Programación VR y AR</li>
+                        <!-- Añadir más titulaciones según sea necesario -->
+                    </ul>
+                    <br>
+                    <h3><i class="fas fa-briefcase" style="margin-right:8px; color:#555;"></i>Experiencia:</h3>
+                    <ul class="experience">
+                        <li>
+                            <strong>Prácticas Desarrollo de Software - Dinasur Desarrollos del Sur (nov. 2023 - may. 2024)</strong>
+                            <p>Desarrollo de scripts en Phyton para el tratamiento de datos
+                                del Portal de datos abiertos del Ayuntamiento de Madrid en la
+                                plataforma ArcGIS Online.
+                            </p>
+                            <p>Mantenimiento, resolución de Incidencias y realización de
+                                pruebas en una aplicación real encargada de gestionar
+                                proyectos de obra en aeropuertos, utilizando tecnologías como:
+                                HTML, CSS, Javascript, w2ui, Java, Spring framework y lenguaje
+                                de consultas SQL
+                            </p>
+                        </li>
+                        <li>
+                            <strong>Desarrollador Web Wordpress - INSENE SOLAR (ago. 2024 - mar 2025)
+                            </strong>
+                            <p>Diseño, desarrollo y mantenimiento del sitio web corporativo
+                                (insene.es) enfocado en la generación de leads, utilizando
+                                Wordpress, Divi y CSS.
+                            </p>
+                            <p>Optimización SEO del sitio web para mejorar su
+                                posicionamiento en motores de búsqueda y medición de
+                                tráfico web enfocado en la generación de tráfico orgánico
+                                (RankMath SEO, palabras clave, creación de entradas de blog,
+                                Google Analytics, Google Tag Manager, Google Search Console)
+                            </p>
+                            <p>Configuración, puesta en marcha y seguimiento de campañas de marketing para redes
+                                sociales en Meta Bussines Suite enfocadas en generar leads.   
+                            </p>
+                            <p>Diseño de contenido gráfico de marketing para RRSS,
+                                Catálogos comerciales, Flyers, Tarjetas identificativas con QR,
+                                etc. Utilizando Canva Pro.
+                            </p>
+                        </li>
+                        <!-- Más puestos -->
+                    </ul>
+                    <br>
+                    <h3><i class="fas fa-cogs" style="margin-right:8px; color:#555;"></i>Tecnologías:</h3>
                     <ul class="technologies">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
                         <li>Java</li>
+                        <li>Spring</li>
                         <li>Jquery</li>
                         <li>w2ui</li>
                         <li>Python</li>
@@ -49,24 +101,15 @@
                         <li>Node.js</li>
                         <li>SQL</li>
                         <li>Github</li>
-                        <!-- Añade más tecnologías según sea necesario -->
-                    </ul>
-                    <h3>Experiencia:</h3>
-                    <ul class="experience">
-                        <li>Prácticas Desarrollador Web - Dinasur Desarrollos del Sur (383h)</li>
-                        <!-- Añade más experiencias según sea necesario -->
-                    </ul>
-                    <h3>Titulaciones:</h3>
-                    <ul class="qualifications">
-                        <li>CFGS Desarrollo de Aplicaciones Web - Ilerna Online (2022 - 2024)</li>
-                        <!-- Añade más titulaciones según sea necesario -->
+                        <li>Wordpress</li>
+                        <!-- Añadir más tecnologías según sea necesario -->
                     </ul>
                 </div>
             </div>
         </section>
 
         <section id="projects">
-            <h2>Algunos Proyectos</h2>
+            <h2>Proyectos Personales</h2>
             <div class="projects-container">
                 <div class="project-card">
                     <img src="images/Pillatupala.jpg" alt="Project 2">
@@ -107,7 +150,7 @@
                     </div>
                 </div>
                 
-                <!-- Añade más proyectos aquí -->
+                <!-- Añadir más proyectos aquí -->
             </div>
         </section>
 
